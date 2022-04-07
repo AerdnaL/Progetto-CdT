@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE TEI SYSTEM "tei_all.dtd"> -->
+<TEI xml:id="48" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="cart48">
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Cartolina 48 - Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione a cura di</resp>
+                    <name xml:id="AL">Andrea Lelli</name>
+                    <name xml:id="AD">Ariele Domenici</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>    
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2022</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Compilato da</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt> 
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                    <name xml:id="AL">Andrea Lelli</name>
+                    <name xml:id="AD">Ariele Domenici</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">Sous les lauries</title>
+                    <author xml:id="GC">Giovanni Coliola</author>
+                    <!-- LUOGO -->
+                    <pubPlace>Z.O.</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date>1917</date>
+                </bibl>
+                
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_048_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents> 
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp type="postage">francobollo - Regno d'Italia</stamp>
+                                    <stamp type="postmark">timbro del servizio di posta militare con data 12 gennaio 1917</stamp>
+                                </support>                    
+                                <condition>Buono, non occorrono interventi di restauro</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>  
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="XB">
+                        <persName>
+                            <forename>Xavier</forename>
+                            <surname>Bricard</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[pittore]</occupation>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>  
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"> Giovanni Coliola</persName>
+                    <placeName ref="#ZO">Z.O.</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1916-12-19">1917/01/09</date>
+                    <date type="writing" when="1916-12-19">1917/01/12</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Nonna con nipote</term>
+                    <term>Artistica </term>
+                    <term>Cartolina Artistica</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>    
+    </teiHeader>
+
+    <text type="cartolina" xml:lang="it">
+        <body>
+            <div type="fronte">
+                <figure xml:id="testo048">
+                    <figDesc>
+                        Una anziana è seduta su una sedia mentre mostra alla nipote come 
+                        tessere a maglia. Alle loro spalle il muro di una casa. Ai lati si 
+                        vedono varie piante dentro vasi. La nonna ha i capelli raccolti da un 
+                        foulard. In basso a sinistra è stampato il numero 1200. In basso al 
+                        centro c'è scritto "SALON 1912 Xavier Bricard Sous les lauries.". 
+                        In basso a destra le iniziali J.K
+                    </figDesc>
+                    <head>Sous les lauries - Xavier Bricard</head>
+                    <signed>
+                        <persName>X. Bricard</persName>
+                    </signed>
+                    <note n="1">
+                        Nell'angolo inferiore destro è presente la firma dell'autore del 
+                        dipinto, X. Bricard.
+                    </note>
+                </figure>
+                <div>
+                    <p>
+                        <lb/><num facs="#altoSinistraFronte" type="cardinal">1200</num><abbr facs="#altoDestraFronte">J.K</abbr>
+                        <lb facs="#primaRigaFronte"/><orgName>SALON</orgName><date>1912</date>
+                        <lb facs="#secondaRigaFronte"/><name type="person">XAVIER BRICARD</name> 
+                        <lb facs="#terzaRigaFronte"/><title>Sous les lauries</title>
+                    </p>
+                </div>
+            </div>
+            <div type="retro">
+                <div type="codice">
+                    <p><num type="cardinal"><idno>48</idno></num></p>
+                </div>
+                <div type="message"> <!-- testo ruotato -->
+                    <opener>
+                        <dateline facs="#luogo_data048"><placeName ref="#ZO">Z.O.</placeName>li<date when="1917-01-09">9/1.1917</date></dateline>
+                    </opener>
+                    <closer>
+                        <salute facs="#saluto048">Ardentissimamente</salute>
+                        <signed facs="#firma048"><persName>Giovannino</persName></signed>
+                    </closer>
+                </div>
+                <div type="destination">
+                    <p>
+                        <stamp facs="#timbro048" type="postmark"> 
+                            <mentioned>POSTA MILITARE <unclear reason="illegible">10</unclear> DIVISIONE</mentioned>
+                            <date when="1917-01-17">12.1.17</date>
+                        </stamp>
+                        <stamp facs="#francobollo048" type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                    <p>
+                        <address>
+                            <addrLine facs="#addrLine1_048">Gentilissima Signorina</addrLine>
+                            <addrLine facs="#addrLine2_048"><persName ref="#OT">Olivia Turtura</persName></addrLine>
+                            <addrLine facs="#addrLine3_048">Via Girolamo Rossi 58</addrLine>
+                            <addrLine facs="#addrLine4_048"> <placeName ref="#RV">Ravenna</placeName></addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface xml:id="fronte048">
+            <graphic url='7694-048F.jpg' width='1036px' height='1642px' />
+            <zone xml:id="altoSinistraFronte" ulx="43" uly="1424" lrx="111" lry="1447" /> 
+            <zone xml:id="primaRigaFronte" ulx="410" uly="1463" lrx="586" lry="1490" /> 
+            <zone xml:id="secondaRigaFronte" ulx="373" uly="1490" lrx="630" lry="1522" />
+            <zone xml:id="terzaRigaFronte" ulx="311" uly="1523" lrx="695" lry="1556" /> 
+            <zone xml:id="altoDestraFronte" ulx="908" uly="1430" lrx="995" lry="1459" />
+        </surface>
+
+        <surface xml:id="retro048">
+            <graphic url='7694-048R.jpg' width='1626px' height='1042px' />
+            <zone xml:id="luogo_data048" ulx="502" uly="72" lrx="703" lry="818" /> 
+            <zone xml:id="saluto048" ulx="299" uly="49" lrx="467" lry="957" /> 
+            <zone xml:id="firma048" ulx="48" uly="150" lrx="285" lry="975" /> 
+            <zone xml:id="timbro048" ulx="1192" uly="61" lrx="1531" lry="396" />
+            <zone xml:id="francobollo048" ulx="1239" uly="1" lrx="1576" lry="277" /> 
+            <zone xml:id="addrLine1_048" ulx="721" uly="319" lrx="1374" lry="504" /> 
+            <zone xml:id="addrLine2_048" ulx="727" uly="475" lrx="1547" lry="577" /> 
+            <zone xml:id="addrLine3_048" ulx="734" uly="599" lrx="1588" lry="781" /> 
+            <zone xml:id="addrLine4_048" ulx="788" uly="778" lrx="1556" lry="1001" />
+        </surface>
+    </facsimile>
+    <!-- 
+        facsimile fronte
+        <graphic url='7694-048F.jpg' width='1036px' height='1642px' />
+        <zone ulx="43" uly="1424" lrx="111" lry="1447" /> 1200
+        <zone ulx="410" uly="1463" lrx="586" lry="1490" /> SALON 1912
+        <zone ulx="373" uly="1490" lrx="630" lry="1522" /> Xavier Bricard
+        <zone ulx="311" uly="1523" lrx="695" lry="1556" /> Sous les lauries
+        <zone ulx="908" uly="1430" lrx="995" lry="1459" /> J.K
+
+        facsimile retro
+        <graphic url='7694-048R.jpg' width='1626px' height='1042px' />
+        <zone ulx="62" uly="21" lrx="159" lry="100" /> 48
+        <zone ulx="502" uly="72" lrx="703" lry="818" /> Z.O ecc
+        <zone ulx="299" uly="49" lrx="467" lry="957" /> Ardentissimamente
+        <zone ulx="48" uly="150" lrx="285" lry="975" /> giovannino
+        <zone ulx="1192" uly="61" lrx="1531" lry="396" /> timbro
+        <zone ulx="1239" uly="1" lrx="1576" lry="277" /> francobollo
+        <zone ulx="721" uly="319" lrx="1374" lry="504" /> gent. ecc
+        <zone ulx="727" uly="475" lrx="1547" lry="577" /> oliva ecc
+        <zone ulx="734" uly="599" lrx="1588" lry="781" /> via ecc
+        <zone ulx="788" uly="778" lrx="1556" lry="1001" /> ravenna
+    -->
+</TEI>

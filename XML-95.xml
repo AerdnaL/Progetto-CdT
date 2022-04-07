@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE TEI SYSTEM "tei_all.dtd">-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Cartolina 95 - Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione a cura di</resp>
+                    <name xml:id="AL">Andrea Lelli</name>
+                    <name xml:id="AD">Ariele Domenici</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>     
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2022</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Compilato da</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                    <name xml:id="AL">Andrea Lelli</name>
+                    <name xml:id="AD">Ariele Domenici</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">La Musica</title>
+                    <author xml:id="GC">Giovanni Coliola</author>
+                    <!-- LUOGO -->
+                    <pubPlace>Modena</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date>1917</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_095_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp type="postage">francobollo - Regno d'Italia</stamp>
+                                    <stamp type="postmark">timbro del servizio di posta delle ferrovie di Modena con data 8 giugno 1917</stamp>
+                                </support>
+                                <condition>Buono, non occorrono interventi di restauro</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="AB">
+                        <persName>
+                            <forename>Aurelio</forename>
+                            <surname>Bertiglia</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[illustratore]</occupation>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>    
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"> Giovanni Coliola</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1917-06-08">1917/06/08</date>
+                    <date type="writing" when="1917-06-08">1917/06/08</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Bambini giocano con oggetti quotidiani creando musica</term>
+                    <term>Artistica </term>
+                    <term>Cartolina Artistica</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="xx">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte">
+                <figure xml:id="testo095">
+                    <figDesc>
+                        Disegno di tre bambini che creano musica suonando utensili da cucina. 
+                        Un bambino è al centro vestito di verde e suona un contenitore di olio 
+                        da lampada con dei mestoli. A destra una bambina vestita di rosso suona 
+                        dei coperchi battendoli tra di loro. A sinistra un bambino più piccolo 
+                        vestito di bianco piange seduto a terra con in mano un mestolo.
+                    </figDesc>
+                    <head>La musica - Aurelio Bertiglia</head>
+                    <signed>
+                        <persName>A. Bertiglia</persName>
+                    </signed>
+                    <note n="1">
+                        Nell'angolo inferiore destro si trova la firma dell'autore
+                        dell'illustrazione, A. Bertiglia.
+                    </note>
+                </figure>
+            </div>
+            <div type="retro">
+                <div type="codice">
+                    <p><num type="cardinal"><idno>95</idno></num></p>
+                </div>
+                <div type="message"> <!-- testo ruotato -->
+                    <opener>
+                        <dateline facs="#luogo_data095"><placeName ref="MO">Modena</placeName>li<date when="1917-06-08">8/6.1917</date></dateline>
+                    </opener>
+                    <closer>
+                        <salute facs="#saluto095">Soavi ed Affettuosissimi</salute>
+                        <signed facs="#firma095"><persName>Giovannino</persName></signed>
+                    </closer>
+                </div>
+                <div type="destination">
+                    <p>
+                        <stamp facs="#timbro095" type="postmark"> 
+                            <mentioned>MODENA FERROVIA</mentioned>
+                            <date when="1917-06-17">8.6.17</date>
+                        </stamp>
+                        <stamp facs="#francobollo095" type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                    <p>
+                        <address>
+                            <addrLine facs="#addrLine1_095">Gent.ma Sig.ra</addrLine>
+                            <addrLine facs="#addrLine2_095"><persName ref="#OT">Olivia Turtura</persName></addrLine>
+                            <addrLine facs="#addrLine3_095">Via Girolamo Rossi 58</addrLine>
+                            <addrLine facs="#addrLine4_095"> <placeName ref="#RV">Ravenna</placeName></addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface xml:id="fronte095">
+            <graphic url='7694-095F.jpg' width='1646px' height='1058px' />
+        </surface>
+
+        <surface xml:id="retro095">
+            <graphic url='7694-095R.jpg' width='1650px' height='1062px' />
+            <zone xml:id="luogo_data095" ulx="627" uly="78" lrx="795" lry="886" /> 
+            <zone xml:id="saluto095" ulx="338" uly="21" lrx="638" lry="1009" /> 
+            <zone xml:id="firma095" ulx="38" uly="72" lrx="369" lry="1062" /> 
+            <zone xml:id="timbro095" ulx="1243" uly="75" lrx="1600" lry="425" /> 
+            <zone xml:id="francobollo095" ulx="1338" uly="57" lrx="1590" lry="349" /> 
+            <zone xml:id="addrLine1_095" ulx="774" uly="343" lrx="1405" lry="605" /> 
+            <zone xml:id="addrLine2_095" ulx="787" uly="546" lrx="1585" lry="645" /> 
+            <zone xml:id="addrLine3_095" ulx="797" uly="648" lrx="1621" lry="825" /> 
+            <zone xml:id="addrLine4_095" ulx="810" uly="793" lrx="1609" lry="1054" />
+        </surface>
+    </facsimile>
+    <!-- 
+        fronte
+        <graphic url='7694-095F.jpg' width='1646px' height='1058px' />
+
+        retro
+        <graphic url='7694-095R.jpg' width='1650px' height='1062px' />
+        <zone ulx="25" uly="22" lrx="112" lry="101" /> 95
+        <zone ulx="627" uly="78" lrx="795" lry="886" /> modena ecc
+        <zone ulx="338" uly="21" lrx="638" lry="1009" /> soavi ecc
+        <zone ulx="38" uly="72" lrx="369" lry="1062" /> giovannino
+        <zone ulx="1243" uly="75" lrx="1600" lry="425" /> timbro
+        <zone ulx="1338" uly="57" lrx="1590" lry="349" /> francobollo
+        <zone ulx="774" uly="343" lrx="1405" lry="605" /> gent ecc
+        <zone ulx="787" uly="546" lrx="1585" lry="645" /> oliva
+        <zone ulx="797" uly="648" lrx="1621" lry="825" /> via
+        <zone ulx="810" uly="793" lrx="1609" lry="1054" /> ravenna
+    -->
+</TEI>

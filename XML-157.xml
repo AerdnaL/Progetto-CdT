@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE TEI SYSTEM "tei_all.dtd">-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Cartolina 157 - Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione a cura di</resp>
+                    <name xml:id="AL">Andrea Lelli</name>
+                    <name xml:id="AD">Ariele Domenici</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2022</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Compilato da</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                    <name xml:id="AL">Andrea Lelli</name>
+                    <name xml:id="AD">Ariele Domenici</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">[Bambini che si abbracciano]</title>
+                    <author xml:id="GC">Giovanni Coliola</author>
+                    <!-- LUOGO -->
+                    <pubPlace>Modena</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date>1917</date>
+                </bibl>
+
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_157_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp type="postage">francobollo - Regno d'Italia</stamp>
+                                    <stamp type="postmark">timbro del servizio di posta delle ferrovie di Modena con data 31 agosto 1917</stamp>
+                                </support>
+                                <condition>Buono, non occorrono interventi di restauro</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="CG">
+                        <persName>
+                            <forename>Cesare</forename>
+                            <surname>Giri</surname>
+                        </persName>
+                        <persName type="pseudo">
+                            <forename>César</forename>
+                            <surname>Giris</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[illustratore]</occupation>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1917-08-31">1917/08/31</date>
+                    <date type="writing" when="1917-08-31">1917/08/31</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Due bambini si abbracciano camminando insieme</term>
+                    <term>Artistica </term>
+                    <term>Cartolina Artistica</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="xx">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte">
+                <figure xml:id="testo157">
+                    <figDesc>
+                        Due bambini di spalle camminano lungo un sentiero di notte 
+                        abbracciandosi. Il maschio è vestito di marrone e porta un ombrello, 
+                        la femmina è vestita di rosso e  indossa una gonna. In cielo si vedono 
+                        la luna e le stelle. A destra si trova un albero.
+                    </figDesc>
+                    <head>[Bambini che si abbracciano] - Cesare Giri</head>
+                    <signed>
+                        <persName>C. Giris</persName>
+                    </signed>
+                    <note n="1">
+                        Nella parte inferiore dell'illustrazione a ovale e leggermente
+                        a sinistra si trova la firma dell'autore, C. Giris
+                    </note>
+                    <note n="2">
+                        L'autore Cesare Giri nell'illustrazione si firma col suo nome
+                        d'arte, César Giris
+                    </note>
+                </figure>
+            </div>
+            <div type="retro">
+                <div type="codice">
+                    <p><num type="cardinal"><idno>157</idno></num></p>
+                </div>
+                <div type="message"> <!-- testo ruotato -->
+                    <opener>
+                        <dateline facs="#luogo_data157"><placeName ref="MO">Modena</placeName>li<date when="1917-08-17">31/8.17</date></dateline>
+                    </opener>
+                    <closer>
+                        <salute facs="#saluto157">Mille affetuosità</salute>
+                        <signed facs="#firma157"><persName>Giovannino</persName></signed>
+                    </closer>
+                </div>
+                <div type="destination">
+                    <p>
+                        <stamp facs="#timbro157" type="postmark"> 
+                            <mentioned>MODENA FERROVIA</mentioned>
+                            <date when="1917-08-31">31.8.17</date>
+                        </stamp>
+                        <stamp facs="#francobollo157" type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                    <p>
+                        <address>
+                            <addrLine facs="#addrLine1_157">Gent Sig.na</addrLine>
+                            <addrLine facs="#addrLine2_157"><persName ref="#OT">Olivia Turtura</persName></addrLine>
+                            <addrLine facs="#addrLine3_157">Via Girolamo Rossi 58</addrLine>
+                            <addrLine facs="#addrLine4_157"> <placeName ref="#RV">Ravenna</placeName></addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface xml:id="fronte157">
+            <graphic url='7694-157F.jpg' width='1065px' height='1661px' />
+        </surface>
+
+        <surface xml:id="retro157">
+            <graphic url='7694-157R.jpg' width='1663px' height='1070px' />
+            <zone xml:id="luogo_data157" ulx="547" uly="140" lrx="730" lry="999" /> 
+            <zone xml:id="saluto157" ulx="330" uly="33" lrx="580" lry="938" />
+            <zone xml:id="firma157" ulx="100" uly="6" lrx="348" lry="986" /> 
+            <zone xml:id="timbro157" ulx="1245" uly="42" lrx="1599" lry="391" /> 
+            <zone xml:id="francobollo157" ulx="1328" uly="57" lrx="1591" lry="362" />
+            <zone xml:id="addrLine1_157" ulx="786" uly="408" lrx="1441" lry="601" /> 
+            <zone xml:id="addrLine2_157" ulx="821" uly="556" lrx="1571" lry="669" /> 
+            <zone xml:id="addrLine3_157" ulx="768" uly="686" lrx="1637" lry="877" /> 
+            <zone xml:id="addrLine4_157" ulx="812" uly="819" lrx="1628" lry="1036" /> 
+        </surface>
+    </facsimile>
+    <!-- 
+        fronte
+        <graphic url='7694-157F.jpg' width='1065px' height='1661px' />
+
+        retro
+        <graphic url='7694-157R.jpg' width='1663px' height='1070px' />
+        <zone ulx="987" uly="149" lrx="1110" lry="227" /> 157
+        <zone ulx="547" uly="140" lrx="730" lry="999" /> modena
+        <zone ulx="330" uly="33" lrx="580" lry="938" /> mille
+        <zone ulx="100" uly="6" lrx="348" lry="986" /> giovannino
+        <zone ulx="1245" uly="42" lrx="1599" lry="391" /> timbro
+        <zone ulx="1328" uly="57" lrx="1591" lry="362" /> francobollo
+        <zone ulx="786" uly="408" lrx="1441" lry="601" /> gent
+        <zone ulx="821" uly="556" lrx="1571" lry="669" /> oliva
+        <zone ulx="768" uly="686" lrx="1637" lry="877" /> via
+        <zone ulx="812" uly="819" lrx="1628" lry="1036" /> ravenna
+    -->
+</TEI>
