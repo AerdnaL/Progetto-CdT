@@ -1,0 +1,91 @@
+html {
+    background-color            : #A68E75;
+ }
+
+.cont {
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-top-color: #522500;
+}
+img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.info{
+    width: 50%;
+    margin:auto;
+    background-color: #6d5a46;
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.testo{
+    width: 50%;
+    margin:auto;
+    padding: 0px 20px 20px 20px;
+    border-top: 10px solid black;
+    margin-top: 40px;
+}
+#crediti{
+    text-align: center;
+}
+#titolo{
+    text-align: center;
+    margin: 75px;
+}
+#introduzione{
+    width: 50%;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    border-top: 10px solid black;
+    margin-top: 40px;
+}
+#crediti {
+    height: auto;
+    line-height: 10px;
+    line-break: strict;
+    margin: 4%;
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: #522500;
+}
+
+.fronte{
+    width: 50%;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    border-top: 10px solid black;
+    margin-top: 40px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #292C2E;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+.testoSinistra{
+    float: left;
+    width: 50%;
+    padding-left: 15%;
+}
